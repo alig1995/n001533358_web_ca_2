@@ -5,7 +5,7 @@ const server = express();
 
 
 server.get('/',(req,res)=>{
-  res.send({hi:'there'})
+  res.send({bye:'alig1995'})
 })
 
 const port = process.env.PORT || 5000
